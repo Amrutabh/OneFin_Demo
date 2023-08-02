@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "e0e2be1d-bcf1-47fa-aab5-a21ec1011b51",
+		"name": "OneFin Demo APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28909993"
+	},
+	"item": [
+		{
+			"name": "Login API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"testuser\",\r\n  \"password\": \"v^4!C%CQ94f0\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.onefin.in/api/v1/usermodule/login/",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"onefin",
+						"in"
+					],
+					"path": [
+						"api",
+						"v1",
+						"usermodule",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
